@@ -6,7 +6,7 @@ import streamlit as st
 from babel.numbers import format_currency
 
 # Import dataset lengkap_df
-lengkap_df = pd.read_csv("lengkap_df.csv")
+lengkap_df = pd.read_csv("https://github.com/RafiImamD/Proyek_Analisis_Data_Dicoding/blob/8d17ff3d3f57bb88f75439e80d77d7fbda5bd75f/dashboard/lengkap_df.csv")
 
 st.title('Olist E-Commerce Public Data Analysis')
 
